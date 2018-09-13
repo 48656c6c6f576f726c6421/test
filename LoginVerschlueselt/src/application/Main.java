@@ -17,6 +17,8 @@ public class Main extends Application {
 			windowController controller = loader.<windowController>getController();
 			controller.btnAbort.setOnAction(e -> {primaryStage.close();});
 
+			System.oru.println("asd");
+
 			
 			Scene scene = new Scene(pane);
 			scene.getStylesheets().add(getClass().getResource("application.css").toExternalForm());
